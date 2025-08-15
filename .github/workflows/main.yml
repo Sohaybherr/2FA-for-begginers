@@ -1,0 +1,8 @@
+name: مرحبا بالعالم
+on: [push]
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: طبع رسالة
+        run: echo "Hello World!"
